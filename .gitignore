@@ -1,0 +1,18 @@
+# Node.js / TypeScript build output
+/frontend/node_modules/
+/frontend/dist/
+/frontend/package-lock.json
+
+# TypeScript compiled JS
+/static/*.js
+/static/*.js.map
+
+# C build output
+/server
+
+# Mac/Linux system files
+.DS_Store
+
+# Temporary/backup files
+*.swp
+*~
