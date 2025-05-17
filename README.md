@@ -11,8 +11,10 @@ c-web-sample/
 ├── backend/        # C HTTP server (raw sockets)
 │   └── main.c
 ├── frontend/       # TypeScript frontend
-│   ├── index.html
-│   ├── main.ts
+│   ├── src/
+│   │   └──  main.ts
+│   ├── static/  
+│   │   └── index.html
 │   └── tsconfig.json
 ├── static/         # Compiled HTML/JS output
 ├── Makefile        # Build & run scripts
